@@ -6,7 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class EnemyTest {
 
-    void attack() {
+    @Test
+    public void attack() {
         int heroHP = 10;
         Hero hero = new Hero("テスト勇者", heroHP, 5);
         Enemy enemy = new Enemy("テストスライム", 6, 3);
